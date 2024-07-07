@@ -128,5 +128,5 @@ section#rodape > footer > p > a:hover {
 }
 
 section#rodape > footer > p > a::after {
-  content: '\1F517';
+  content: ' \1F517';
 }
