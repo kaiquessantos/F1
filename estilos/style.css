@@ -6,7 +6,9 @@
   box-sizing: border-box;
 }
 
-
+body, html {
+  width: 100vw;
+}
 
 div#logo {
   background-image: url(../imagens/logo-f1-ok.png);
@@ -55,6 +57,10 @@ section#corridas {
   margin: 20px 0px;
 }
 
+section#corridas > article {
+  padding: 10px;
+}
+
 section#corridas > article > h1 {
   text-align: center;
   font-size: 2em;
@@ -62,7 +68,7 @@ section#corridas > article > h1 {
 
 div#linha {
   border: 1px solid black;
-  margin-bottom: 10px;
+  margin: 10px 0px;
 }
 
 div#img-one {
@@ -70,6 +76,30 @@ div#img-one {
   justify-content: center;
   align-items: center;
   flex-flow: row nowrap;
+}
+
+section#corridas > article > h2 {
+  text-align: center;
+}
+
+div#img-two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row nowrap;
+}
+
+div#img-three {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row nowrap;
+}
+
+p {
+  font-size: 1.1em;
+  text-indent: 25px;
+  line-height: 1.7em;
 }
 
 
