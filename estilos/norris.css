@@ -51,7 +51,26 @@ div#linha {
   margin: 10px 0px;
 }
 
-section#mclaren > article > h1 {
+section#mclaren {
+  padding: 10px;
+}
+
+section#mclaren > h1 {
   text-align: center;
   font-size: 2em;
 }
+
+div#lando {
+  display: flex;
+  justify-content: center;
+}
+
+section#carreira {
+  padding: 10px;
+}
+
+h2 {
+  text-align: center;
+}
+
+
