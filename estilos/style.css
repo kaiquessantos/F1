@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+
+
+div#logo {
+  background-image: url(../imagens/logo-f1-ok.png);
+  height: 150px;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+ul {
+  list-style-position: inside;
+  list-style-type: none;
+}
+
+a.button {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  padding: 7px;
+
+  margin-bottom: 4px;
+}
+
+a#home:hover {
+  color: red;
+}
+
+a#lewis:hover {
+  background-color: #16E3E8;
+}
+
+a#norris:hover {
+  background-color: #FF7300;
+}
+
+a#verstappen:hover {
+  background-color: #D12531;
+}
+
+a {
+  transition-duration: 0.4s
+}
