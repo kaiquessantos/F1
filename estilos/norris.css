@@ -19,7 +19,7 @@ p {
   line-height: 1.7em;
 }
 
-div#mclaren {
+div#mclarenLogo {
   background-image: url(../imagens/mc-laren.jpg);
   height: 150px;
   background-position: center center;
@@ -44,4 +44,14 @@ a.button {
 
 a#home:hover {
   color: #FF7300;
+}
+
+div#linha {
+  border: 1px solid black;
+  margin: 10px 0px;
+}
+
+section#mclaren > article > h1 {
+  text-align: center;
+  font-size: 2em;
 }
