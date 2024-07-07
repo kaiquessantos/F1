@@ -54,16 +54,8 @@ a#norris:hover {
   background-color: #FF7300;
 }
 
-a#norris:active {
-  background-color: #FF7300;
-}
-
 a#verstappen:hover {
   background-color: #D12531;
-}
-
-a {
-  transition-duration: 0.4s
 }
 
 section#corridas {
