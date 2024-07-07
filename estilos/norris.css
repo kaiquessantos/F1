@@ -45,7 +45,3 @@ a.button {
 a#home:hover {
   color: #FF7300;
 }
-
-a {
-  transition-duration: 0.4s
-}
