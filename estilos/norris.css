@@ -13,6 +13,10 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+span {
+  color: #F58228;
+}
+
 p {
   font-size: 1.1em;
   text-indent: 25px;
@@ -55,7 +59,7 @@ section#mclaren {
   padding: 10px;
 }
 
-section#mclaren > h1 {
+h1 {
   text-align: center;
   font-size: 2em;
 }
@@ -63,6 +67,7 @@ section#mclaren > h1 {
 div#lando {
   display: flex;
   justify-content: center;
+  margin-bottom: 8px;
 }
 
 section#carreira {
@@ -71,6 +76,32 @@ section#carreira {
 
 h2 {
   text-align: center;
+}
+
+section#fone {
+  background-image: linear-gradient(to right, #FD8137 40%, #FF884F 60%);
+  padding: 10px;
+}
+
+div#landocar {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0px;
+}
+
+section#cc {
+  padding: 10px;
+}
+
+section#cc > h1 {
+  margin-top: 8px;
+  text-decoration: overline;
+}
+
+div#collectioncar {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0px;
 }
 
 
