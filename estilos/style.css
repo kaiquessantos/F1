@@ -50,3 +50,29 @@ a#verstappen:hover {
 a {
   transition-duration: 0.4s
 }
+
+section#corridas {
+  margin: 20px 0px;
+}
+
+section#corridas > article > h1 {
+  text-align: center;
+  font-size: 2em;
+}
+
+div#linha {
+  border: 1px solid black;
+  margin-bottom: 10px;
+}
+
+div#img-one {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row nowrap;
+}
+
+
+
+
+
