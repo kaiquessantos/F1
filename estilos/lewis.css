@@ -88,7 +88,7 @@ div#senna {
 
 section#mercedes {
   padding: 10px 10px 0px 10px;
-  background-image: linear-gradient(to bottom, white, #16E3E8);
+  background-image: linear-gradient(to bottom, white 15%, #16E3E8 85%);
 }
 
 div#lewcar {
@@ -99,6 +99,10 @@ div#lewcar {
 
 section#estiloLewis {
   padding: 10px;
+}
+
+section#estiloLewis > h2 {
+  text-decoration: overline;
 }
 
 div#style {
