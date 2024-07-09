@@ -14,7 +14,7 @@ body {
 }
 
 span {
-  color: #F58228;
+  color: #16E3E8;
 }
 
 p {
@@ -23,11 +23,11 @@ p {
   line-height: 1.7em;
 }
 
-div#mclarenLogo {
-  background-image: url(../imagens/mc-laren.jpg);
+div#mercedesLogo {
+  background-image: url(../imagens/mercedes-logo.jpg);
   height: 150px;
-  background-position: center center;
   background-repeat: no-repeat;
+  background-position: center center;
 }
 
 ul {
@@ -45,15 +45,15 @@ a.button {
 }
 
 a#home:hover {
-  color: #FF7300;
+  color: #16E3E8;
 }
 
 div#linha {
-  border: 1px solid black;
+  border: 1px solid #16E3E8;
   margin: 10px 0px;
 }
 
-section#mclaren {
+section#hamilton {
   padding: 10px;
 }
 
@@ -62,10 +62,9 @@ h1 {
   font-size: 2em;
 }
 
-div#lando {
+div#lewisimg {
   display: flex;
   justify-content: center;
-  margin-bottom: 8px;
 }
 
 section#carreira {
@@ -76,30 +75,24 @@ h2 {
   text-align: center;
 }
 
-section#fone {
-  background-image: linear-gradient(83deg, #FD8137 40%, #FF884F 60%);
-  padding: 10px;
-}
-
-div#landocar {
-  display: flex;
-  justify-content: center;
+div#linhaDois {
+  border: 1px solid black;
   margin: 10px 0px;
 }
 
-section#cc {
-  padding: 10px;
-}
-
-section#cc > h1 {
-  margin-top: 8px;
-  text-decoration: overline;
-}
-
-div#collectioncar {
+div#senna {
   display: flex;
   justify-content: center;
-  margin: 10px 0px;
+  margin-top: 20px;
 }
 
+section#mercedes {
+  padding: 10px;
+  background-image: linear-gradient(to bottom, white, #16E3E8);
+}
 
+div#lewcar {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
