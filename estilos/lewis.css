@@ -67,7 +67,7 @@ div#lewisimg {
   justify-content: center;
 }
 
-section#carreira {
+article#carreira {
   padding: 10px;
 }
 
@@ -86,7 +86,7 @@ div#senna {
   margin-top: 20px;
 }
 
-section#mercedes {
+article#mercedes {
   padding: 10px 10px 0px 10px;
   background-image: linear-gradient(to bottom, white 15%, #16E3E8 85%);
 }
@@ -97,11 +97,11 @@ div#lewcar {
   margin: 15px 0px;
 }
 
-section#estiloLewis {
+article#estiloLewis {
   padding: 10px;
 }
 
-section#estiloLewis > h2 {
+article#estiloLewis > h2 {
   text-decoration: overline;
 }
 
