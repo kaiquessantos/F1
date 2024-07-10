@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+/*
+Pequenas telas: 600px
+Celular: 600px - 768px
+Tablet: 768px - 1024px
+Laptops: 1024px - 1280px
+Desktop: 1280px
+*/
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+  
+}
