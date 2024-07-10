@@ -54,7 +54,7 @@ div#linha {
 }
 
 section#max {
-  padding: 10px;
+  padding: 10px 10px 0px 10px;
 }
 
 h1 {
@@ -65,4 +65,37 @@ h1 {
 div#maximg {
   display: flex;
   justify-content: center;
+}
+
+article {
+  padding: 10px;
+}
+
+h2 {
+  text-align: center;
+}
+
+div#linha {
+  border: 1px solid black;
+  margin: 10px 0px;
+}
+
+div#redbullCar {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+div#linhaDois {
+  border: 1px solid #D12531;
+}
+
+article#bichamp {
+  background-image: linear-gradient(186deg, #D12531, #FFE03A);
+}
+
+div#champimg {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
 }
