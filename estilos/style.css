@@ -31,6 +31,10 @@ ul {
   list-style-type: none;
 }
 
+div#navdesk {
+  display: none;
+}
+
 a.button {
   display: block;
   text-align: center;
@@ -59,10 +63,10 @@ a#verstappen:hover {
 }
 
 section#corridas {
-  margin: 20px 0px;
+  margin: 20px 0px 0px 0px;
 }
 
-section#corridas > article {
+article {
   padding: 10px;
 }
 
@@ -86,6 +90,10 @@ div#img-one {
 
 section#corridas > article > h2 {
   text-align: center;
+}
+
+article#primordio {
+  padding: 10px 10px 0px 10px;
 }
 
 div#img-two {
