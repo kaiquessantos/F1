@@ -11,12 +11,12 @@ Desktop: 1280px
 @media screen and (min-width:1024px) {
 
   section#header {
-    height: 200px;
+    height: 60px;
     position: relative;
   }
 
   header {
-    height: 200px;
+    height: 60px;
     position: fixed;
     width: 100%;
     background-color: white;
@@ -26,7 +26,7 @@ Desktop: 1280px
 
   header > div#logo {
     float: left;
-    height: 200px;
+    height: 60px;
     width: 30%;
   }
 
@@ -43,7 +43,7 @@ Desktop: 1280px
 
   ul {
     display: flex;
-    height: 200px;
+    height: 60px;
     align-items: center;
     gap: 20px;
     margin-right: 20px;
@@ -61,7 +61,7 @@ Desktop: 1280px
   }
 
   main {
-    height:100vh;
+    height: 100vh;
   }
 
   div#img-one {
@@ -69,13 +69,30 @@ Desktop: 1280px
     margin-right: 20px;
   }
 
-  div#img-two {
-    display: none;
+  section {
+    min-height: calc(100% - 60px);
   }
 
-  section {
-    height: calc(100vh - 200px);
+  section#hamilton {
     display: flex;
+    flex-flow: column nowrap;
+  }
+  
+  section#hamilton > h1 > span {
+    color: #16E3E8;
+  }
+
+  section#hamilton {
+    padding: 10px;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 2em;
+  }
+
+  h2 {
+    text-align: center;
   }
 
   section#rodape {

@@ -121,6 +121,10 @@ section#rodape {
   align-items: center;
 }
 
+section#hamilton {
+  display: none;
+}
+
 section#rodape > footer > p {
   display: block;
 }
